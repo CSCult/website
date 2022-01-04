@@ -1,0 +1,786 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    background-color: #152D35; color: white;
+}
+/* ------------------------------------Navigation Bar (DeskTop)---------------------- */
+#navigation{
+    position: absolute;
+}
+#navigation nav{
+    padding: 0 20% 0 20%;
+}
+#navigation .navbar-brand img{
+    height: 80%;
+}
+#navigation ul{
+    position: absolute;
+    left: 460px;
+}
+#navigation .nav-item{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-right: 1.5%;
+}
+#navigation .nav-item:hover{
+    font-weight: 600;
+    font-size: 1.21rem;
+    color: white;
+}
+@media (max-width: 1000px){
+    #navigation{
+        display: none;
+    }
+}
+/* ------------------------------------Navigation Bar (Mobile)------------------------ */
+#navigation-mobile{
+    position: absolute;
+}
+#navigation-mobile .nav-img1{
+    width: 140%;
+    margin-left: 10px;
+}
+#navigation-mobile .nav-img2{
+    width: 70%;
+    margin: 100px 0 60px 40px;
+}
+#navigation-mobile .toggle-btn{
+    position: relative; 
+    bottom: 95px; left: 180%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding-left: 50px; padding-bottom: 40px;
+    text-decoration: none;
+    font-size: 50px;
+    color: lightgrey;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: white;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 100px;
+    margin-left: 50px;
+}
+  
+@media (min-width: 1000px){
+    #navigation-mobile{
+        display: none;
+    }
+}
+
+/* ------------------------------------Navigation Bar (Branch)---------------------- */
+#navigation-branch{
+    
+}
+#navigation-branch nav{
+    padding: 0 5% 0 2%;
+}
+#navigation-branch .navbar-brand img{
+    height: 50px;
+}
+#navigation-branch .navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#navigation-branch .nav-item{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-right: 10px;
+}
+#navigation-branch .nav-item:hover{
+    font-weight: 600;
+    font-size: 1.21rem;
+    color: white;
+}
+@media (max-width: 1000px){
+    #navigation-branch{
+        margin-bottom: 20px;
+        width: 103%;
+    }
+    #navigation-branch .navbar-brand img{
+        height: 130px;
+    }
+    #navigation-branch .navbar-brand{
+        font-size: 3rem;
+    }
+    #navigation-branch .nav-item{
+        font-size: 2.5rem;
+        padding-top: 10px;
+    }
+}
+/* ------------------------------------Title Section---------------------------------- */
+#title{
+    
+}
+#title .main-img{
+    width: 100%;
+    z-index: -1;
+}
+#title .title-content{
+    position: absolute; top: 13rem; left: 2rem;
+    width: 50%;
+}
+#title .title-content h1{
+    color: white;
+    font-size: 3.5rem; font-weight: 600;
+}
+#title .title-content p{
+    color: white;
+    font-size: 1.2rem; font-weight: 400; letter-spacing: 2px;
+}
+#title .title-content button{
+    font-size: 1rem; font-weight: 600; letter-spacing: 2px;
+    width: 37%;
+    margin-top: 10px;
+}
+#title .title-content button:hover{
+    color: #04293A; background-color: lightgrey;
+}
+@media (max-width: 1000px){
+    #title .title-content{
+        top: 12rem; left: 3rem; 
+    }
+    #title .title-content h1{
+        font-size: 2rem; font-weight: 600;
+    }
+    #title .title-content p{
+        color: white;
+        font-size: 1.2rem; font-weight: 400; letter-spacing: 2px;
+    }
+    #title .title-content button{
+        font-size: 2rem; width: 50%;
+    }
+}
+/* ------------------------------------About Section---------------------------------- */
+#about{
+
+}
+#about .row{
+    margin: 3% 4% 0 4%;
+}
+#about .about-content h2{
+    font-size: 3rem; line-height: 2;
+}
+#about .about-content p{
+    font-size: 1.2rem;
+}
+#about img{
+    height: 70%;
+	animation: infiniteRotate 2s linear infinite;
+    transition: 1s all;
+    margin-top: 80px; margin-left: 60px;
+}
+@keyframes infiniteRotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media (max-width: 1000px){
+    #about .row{
+        margin-right: 0;
+    }
+    #about .about-content h2{
+        font-size: 4rem;
+    }
+    #about .about-content p{
+        font-size: 2rem; padding-bottom: 20px;
+    }
+    #about img{
+        height: 100%;
+        margin: 40px 0 200px 200px;
+    }
+}
+/* ------------------------------------Community Section------------------------------ */
+
+#community{
+
+}
+#community .community-content{
+    color: white;
+    margin: 3% 4% 0 4%;
+}
+#community .community-content h2{
+    font-size: 3rem; line-height: 2;
+}
+#community h3{
+    font-size: 2rem; font-weight: 600;
+}
+#community .community-content p{
+    font-size: 1.2rem;
+}
+#community .row{
+    margin: 7% 10% 0;
+}
+#community .img1{
+    width: 110%; 
+}
+#community .img2{
+    width: 40%; padding-top: 15px;
+}
+#community .img2:hover{
+    width: 43%; padding-top: 15px;
+}
+#community .join-discord{
+    margin-top: 20px; margin-left: 130px;
+}
+@media (max-width: 1000px){
+    #community .community-content{
+        margin-right: 0;
+    }
+    #community .community-content h2{
+        font-size: 4rem;
+        margin-top: 100px;
+    }
+    #community .community-content p{
+        font-size: 2rem; padding-bottom: 20px;
+    }
+    #community .img1{
+        width: 100%; padding-bottom: 50px;
+    }
+    #community .img2{
+        width: 40%; margin-left: 120px; padding-top: 50px;
+    }
+}
+/* ------------------------------------Event Section---------------------------------- */
+
+#event{
+    margin: 5% 4% 0;
+}
+#event .carousel{
+    margin-top: 5%;
+    margin-left: 10px;
+}
+#event .carousel-control-next{
+      right: -3%;
+}
+#event .carousel-control-prev{
+    left: -7%;
+}
+#event .carousel-indicators{
+    bottom: -35%;
+}
+#event h2{
+    font-size: 3rem; line-height: 2;
+}
+#event img{
+    width: 90%;
+    margin-left: 20%;
+    border-radius: 6%; border-color: white; border-width: 2px; border-style: solid;
+}
+#event h3{
+    font-size: 2rem; font-weight: 600;
+    padding-bottom: 3%;
+}
+#event .event-content{
+    margin-left: 5%;
+}
+@media (max-width: 1000px){
+    #event{
+        margin-top: 100px; margin-bottom: 100px;
+        height: 1400px;
+    }
+    #event .carousel-control-next{
+        top: -60%;
+    }
+    #event .carousel-control-prev{
+        top: -60%;
+    }
+    #event h2{
+        font-size: 5rem;
+    }
+    #event h3{
+        font-size: 3rem;
+    }
+    #event p{
+        font-size: 2rem;
+    }
+    #event .carousel-indicators{
+        display: none;
+    }
+    #event img{
+        width: 60%; margin-bottom: 10%;
+        border-width: 5px;
+    }
+}
+/* ------------------------------------Product Section-------------------------------- */
+#product{
+    margin: 5% 4% 0;
+}
+#product .row{
+    margin-top: 3rem;
+    margin-left: 60px;
+}
+#product .content1{
+    position: relative; right: 4rem;
+}
+#product h2{
+    font-size: 3rem; line-height: 2;
+}
+#product h3{
+    font-size: 2rem; font-weight: 600;
+    padding-bottom: 3%;
+}
+#product img{
+    width: 80%;
+    border-radius: 8%;
+    margin-top: 10px;
+    border: solid 1px white;
+}
+#product button{
+    font-weight: 600;
+    width: 25%;
+}
+#product button:hover{
+    border-color: white; border-width: 1px;
+}
+#product h3{
+	background: linear-gradient(
+		45deg,
+		#df41ff,
+		#34d0ff 30%,
+		#6054ff 60%,
+		#fc34fc
+	);
+	width: fit-content;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@media (max-width: 1000px){
+    #product{
+        margin-right: 0;
+        margin-top: 130px;
+    }
+    #product .content1{
+        margin-left: 3%;
+    }
+    #product .content2{
+        margin-left: -5%;
+        margin-top: 6%; margin-bottom: 5%;
+    }
+    #product h2{
+        font-size: 5rem;
+        margin-bottom: -50px;
+    }
+    #product h3{
+        font-size: 4rem;
+    }
+    #product p{
+        font-size: 2rem;
+    }
+    #product img{
+        width: 70%;
+        margin: 30px 0 50px 80px;
+        border-width: 5px;
+    }
+    #product button{
+        font-size: 2.5rem;
+        width: 55%;
+        margin-top: 5%;
+    }
+}
+/* ------------------------------------Footer Section--------------------------------- */
+#footer{
+    background-color: #30475E;
+    margin-top: 70px;
+    padding: 50px 20px 0;
+}
+#footer div{
+    width: 100%;
+}
+#footer h4{
+    font-size: 2rem; font-weight: 400;
+}
+#footer .footer-logo{
+    height: 70px;
+    margin-left: 95%; position: relative; bottom: 60px;
+}
+#footer .content-box{
+    position: relative; bottom: 60px; right: 300px;
+}
+#footer ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 60px;
+}
+#footer li{
+    display: inline-block;
+    margin: 10px;
+}
+#footer li:hover{
+    display: inline-block;
+    margin: 10px;
+    color: lightgray;
+}
+#footer .fab{
+    color: white;
+    padding: 5px;
+}
+#footer .fab:hover{
+    color: gray;
+}
+#footer h5{
+    font-size: 2rem; font-weight: 400;
+}
+#footer .footer-img1{
+    width: 45%;
+    position: absolute; top: -100px; right: -220px;
+}
+
+@media (max-width: 1000px){
+    #footer{
+        width: 103%;
+    }
+    #footer h4{
+        font-size: 4rem;
+    }
+    #footer .footer-logo{
+        height: 120px;
+        margin-left: 90%; bottom: 100px;
+    }
+    #footer .content-box{
+        bottom: 150px; right: 0;
+    }
+    #footer h5{
+        font-size: 3rem;
+    }
+    #footer li{
+        font-size: 2.5rem;
+    }
+    #footer button{
+        font-size: 2.5rem; font-weight: 600;
+        margin-top: 20px;
+    }
+    #footer .footer-img1{
+        width: 85%;
+        position: relative; top: 100px; right: -10%;
+    }
+
+}
+/* ----------------------------------------------------------------------------------- */
+
+/* ------------------------------------Team Page-------------------------------------- */
+#team{
+    text-align: center;
+    padding: 35px 50px 0;
+}
+#team .row{
+    width: 100%;
+}
+#team h1{
+    font-size: 4rem; font-weight: 600;
+}
+#team .team-member{
+    margin-top: 80px;
+}
+#team .member-img{
+    height: 250px; width: 250px;
+    border-radius: 100%; border-color: white; border-width: 2px; border-style: solid;
+    box-shadow: 1px 1px 10px darkgray;
+}
+#team h2{
+    font-size: 1.9rem;
+    margin-top: 8px;
+}
+#team h3{
+    font-size: 1.2rem; line-height: 2;
+}
+#team ul{
+    list-style-type: none;
+    position: relative; right: 15px;
+}
+#team li{
+    display: inline-block;
+}
+#team .social-icon{
+    height: 25px;
+    margin: 5px;
+}
+#team .fab{
+    color: white;
+}
+@media (max-width: 1000px){
+    #team .member-img{
+        height: 450px; width: 450px;
+        margin-top: 10px;
+    }
+    #team h1{
+        font-size: 5rem;
+    }
+    #team h2{
+        font-size: 5rem;
+    }
+    #team h3{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #team .social-icon{
+        height: 50px; margin: 0 10px;
+    }
+}
+/* ------------------------------------Logo Page-------------------------------------- */
+#logo-page{
+    padding: 20px;
+}
+#logo-page .row{
+    width: 100%;
+    margin-left: 20px;
+}
+#logo-page h1{
+    text-align: center;
+    font-size: 4rem; font-weight: 600;
+    padding-top: 20px; padding-bottom: 20px;
+}
+#logo-page h3{
+    font-size: 2rem; font-weight: 400;
+    margin-top: 60px; margin-left: 10px;
+}
+#logo-page p{
+    font-size: 1.2rem; font-weight: 400;
+    padding: 10px;
+}
+#logo-page .logo1{
+    height: 95%;
+    margin-top: 8%; margin-left: 10%;
+}
+#logo-page .logo2{
+    height: 80%;
+    margin-top: 20%; margin-left: 25%;
+}
+@media (max-width: 1000px){
+    #logo-page h1{
+        font-size: 5rem;
+    }
+    #logo-page h3{
+        font-size: 4rem;
+    }
+    #logo-page p{
+        font-size: 2.2rem;
+    }
+    #logo-page .logo1{
+        height: 550px;
+        margin-top: -15px;
+        margin-left: 80px;
+        position: relative; top: 60px; left: 100px;
+    }
+    #logo-page .logo2{
+        height: 460px;
+        margin-top: 100px;
+        margin-left: 250px;
+        margin-bottom: 0;
+        position: relative;
+    }
+    #logo-page .content1{
+        position: relative; top: 30px;
+    }
+    #logo-page .content2{
+        position: relative; top: 50px;
+    }
+}
+
+/* ------------------------------------Club Page-------------------------------------- */
+#club-page{
+    padding: 30px 10px 10px 10px;
+}
+#club-page h1{
+    text-align: center;
+    font-size: 4rem; font-weight: 600;
+    margin-top: 20px; margin-bottom: 100px;
+}
+#club-page .row{
+    margin: 50px 0 80px 70px;
+}
+#club-page h3{
+    font-size: 2rem; font-weight: 600;
+    padding-bottom: 15px;
+}
+#club-page h3{
+	background: linear-gradient(
+		45deg,
+		#df41ff,
+		#34d0ff 30%,
+		#6054ff 60%,
+		#fc34fc
+	);
+	width: fit-content;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#club-page img{
+    width: 310px;
+    border-radius: 10%; border: solid 2px white;
+}
+#club-page .content2{
+    margin-left: 60px;
+}
+#club-page button{
+    font-weight: 600;
+    width: 30%;
+    margin-top: 10px;
+}
+#club-page button:hover{
+    border-color: white; border-width: 1px;
+}
+#club-page hr{
+    display: none;
+}
+@media (max-width: 1000px){
+    #club-page h1{
+        font-size: 5rem; margin-bottom: 60px;
+    }
+    #club-page .row{
+        margin-top: 0;
+    }
+    #club-page h3{
+        font-size: 5rem;
+        margin-top: 60px;
+    }
+    #club-page p{
+        font-size: 2rem;
+    }
+    #club-page img{
+        width: 570px;
+        margin-left: 16%;
+    }
+    #club-page button{
+        font-size: 2.8rem; font-weight: 600;
+        width: 80%;
+        margin: 50px 0 100px;
+    }
+    #club-page .content2{
+        margin-left: 0;
+    }
+    #club-page hr{
+        display: inline-block;
+        border: white 3px solid; width: 98%;
+        position: relative; bottom: 30px; left: 3%;
+    }
+}
+/* ------------------------------------Products Page---------------------------------- */
+#product-page{
+    padding: 50px 50px 20px 20px;
+}
+#product-page h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#product-page h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px; margin-top: 10px;
+}
+#product-page h2{
+	background: linear-gradient(
+		45deg,
+		#df41ff,
+		#34d0ff 30%,
+		#6054ff 60%,
+		#fc34fc
+	);
+	width: fit-content;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#product-page h3{
+    font-size: 1.43rem;
+    margin: 10px;
+}
+#product-page h4{
+    font-size: 1rem;
+}
+#product-page .product-img{
+    width: 320px;
+    margin-left: 10%; margin-top: 10px;
+    border-radius: 8%; border: solid white 1px;
+}
+#product-page button{
+    width: 30%; font-size: 1rem; font-weight: 600;
+    margin-top: 15px;
+}
+#product-page button:hover{
+    border: solid white 1px;
+}
+#product-page .divs{
+    margin-top: 100px; margin-left: 50px;
+    text-align: center;
+}
+#product-page .div-img{
+    width: 200px;
+    border-radius: 100%; border: solid white 1px;
+}
+#product-page .product2{
+    margin-top: 140px;
+}
+#product-page hr{
+    position: relative; top: 70px;
+}
+@media (max-width: 1000px){
+    #product-page{
+        padding: 40px 0 0 3rem;
+    }
+    #product-page h1{
+        font-size: 5rem;
+    }
+    #product-page h2{
+        font-size: 5rem;
+        margin-top: 10%;
+    }
+    #product-page h3{
+        font-size: 2.5rem;
+    }
+    #product-page h4{
+        font-size: 2rem;
+    }
+    #product-page p{
+        font-size: 2rem;
+    }
+    #product-page .product-img{
+        width: 480px;
+        margin-left: 25%; margin-top: 10px;
+    }
+    #product-page .div-img{
+        width: 200px;
+        border-radius: 100%; border: solid white 1px;
+        margin-top: 80px;
+    }
+    #product-page button{
+        width: 40%; font-size: 2.5rem; font-weight: 600;
+        margin-top: 15px;
+    }
+    #product-page .divs{
+        margin-top: 0; margin-left: -3rem;
+    }
+    #product-page .product2{
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+    #product-page hr{
+        width: 98%;
+        border: white 3px solid;
+        position: relative; top: 100px; right: 200px; left: 5px;
+    }
+}
+/* ------------------------------------End-------------------------------------------- */
