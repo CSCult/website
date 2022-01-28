@@ -1,6 +1,6 @@
 body{
     font-family: "Montserrat",sans-serif;
-    background-color: #152D35; color: white;
+    background-color: #252525; color: white;
 }
 /* ------------------------------------Navigation Bar (DeskTop)---------------------- */
 #navigation{
@@ -14,7 +14,7 @@ body{
 }
 #navigation ul{
     position: absolute;
-    left: 460px;
+    left: 440px;
 }
 #navigation .nav-item{
     font-size: 1.2rem;
@@ -25,6 +25,26 @@ body{
     font-weight: 600;
     font-size: 1.21rem;
     color: white;
+}
+@media (min-width: 1280px){
+    #navigation ul{
+        left: 450px;
+    }
+}
+@media (min-width: 1300px){
+    #navigation ul{
+        left: 500px;
+    }
+}
+@media (min-width: 1380px){
+    #navigation ul{
+        left: 550px;
+    }
+}
+@media (min-width: 1500px){
+    #navigation ul{
+        left: 600px;
+    }
 }
 @media (max-width: 1000px){
     #navigation{
@@ -88,9 +108,7 @@ body{
 }
 
 /* ------------------------------------Navigation Bar (Branch)---------------------- */
-#navigation-branch{
-    
-}
+
 #navigation-branch nav{
     padding: 0 5% 0 2%;
 }
@@ -128,9 +146,7 @@ body{
     }
 }
 /* ------------------------------------Title Section---------------------------------- */
-#title{
-    
-}
+
 #title .main-img{
     width: 100%;
     z-index: -1;
@@ -155,6 +171,16 @@ body{
 #title .title-content button:hover{
     color: #04293A; background-color: lightgrey;
 }
+@media (min-width: 1358px){
+    #title .title-content{
+        top: 17rem; left: 2rem;
+    }
+}
+@media (min-width: 1458px){
+    #title .title-content{
+        top: 18rem; left: 2rem;
+    }
+}
 @media (max-width: 1000px){
     #title .title-content{
         top: 12rem; left: 3rem; 
@@ -171,9 +197,7 @@ body{
     }
 }
 /* ------------------------------------About Section---------------------------------- */
-#about{
 
-}
 #about .row{
     margin: 3% 4% 0 4%;
 }
@@ -214,9 +238,6 @@ body{
 }
 /* ------------------------------------Community Section------------------------------ */
 
-#community{
-
-}
 #community .community-content{
     color: white;
     margin: 3% 4% 0 4%;
@@ -287,7 +308,7 @@ body{
 #event img{
     width: 90%;
     margin-left: 20%;
-    border-radius: 6%; border-color: white; border-width: 2px; border-style: solid;
+    border-radius: 8%; border-color: white; border-width: 2px; border-style: solid;
 }
 #event h3{
     font-size: 2rem; font-weight: 600;
@@ -402,7 +423,7 @@ body{
 }
 /* ------------------------------------Footer Section--------------------------------- */
 #footer{
-    background-color: #30475E;
+    background-color: #393E46;
     margin-top: 70px;
     padding: 50px 20px 0;
 }
@@ -447,7 +468,24 @@ body{
     width: 45%;
     position: absolute; top: -100px; right: -220px;
 }
-
+@media (min-width: 1300px){
+    #footer .footer-img1{
+        width: 45%;
+        top: -130px; right: -220px;
+    }
+}
+@media (min-width: 1400px){
+    #footer .footer-img1{
+        width: 43%;
+        top: -150px; right: -220px;
+    }
+}
+@media (min-width: 1500px){
+    #footer .footer-img1{
+        width: 40%;
+        top: -150px; right: -220px;
+    }
+}
 @media (max-width: 1000px){
     #footer{
         width: 103%;
